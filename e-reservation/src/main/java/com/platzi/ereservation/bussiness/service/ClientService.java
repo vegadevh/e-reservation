@@ -16,7 +16,6 @@ import com.platzi.ereservation.model.Client;
  *
  */
 @Service
-@Transactional(readOnly = true) 
 public class ClientService {
 	private final IClientRepository clientRepository;
 	
